@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Please login to creat task</h1>
+    <form action="/task" method="post">
+        <table>
+            <tr>
+                <td>Username:</td>
+                <td><input type="text" name="username" id="" required></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="password" id="" required></td>
+            </tr>
+            <tr>
+                <td>Task Name:</td>
+                <td><input type="text" name="task" id=""></td>
+            </tr>
+            <tr>
+                <td>Priority:</td>
+                <td>
+                    <select name="priority" id="">
+                        <option value="high">High</option>
+                        <option value="med" selected>Med</option>
+                        <option value="low">Low</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Completion Date:</td>
+                <td><input type="date" name="completeBy" id=""></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button type="submit">Submit</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
